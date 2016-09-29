@@ -2,12 +2,13 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
+    "pages/ico/ico",
     "pages/cat/cat"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "微信小程序--宝儿",
+    "navigationBarTitleText": "微信小程序demo",
     "navigationBarTextStyle":"black"
   },
   "debug":true

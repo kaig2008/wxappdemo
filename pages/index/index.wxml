@@ -4,8 +4,18 @@
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
-    <view  bindtap="bindCatViewTap" class="cat">
-    <text class="userinfo-nickname">{{cat.name}}</text>
+  
+
+  <view  bindtap="bindCatViewTap" class="cat">
+    <text>{{cat.name}}</text>
+  </view>
+
+  <view bindtap="bindViewTap" data-page-name="ico">
+    <text>ico demo</text>
+  </view>
+  
+  <view bindtap="bindViewTap" data-page-name="logs">
+    <text>查看日志</text>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
