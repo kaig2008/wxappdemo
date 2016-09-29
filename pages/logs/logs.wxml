@@ -1,0 +1,15 @@
+<!--logs.wxml-->
+<view title="{{mp.title}}">
+<map longitude="113.324520" latitude="23.099994" markers="{{markers}}" covers="{{covers}}" style="width: 375px; height: 200px;"></map>
+</view>
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view>
+<view class="ul-title">
+<text class="ul-title">{{ul.title}}</text>
+</view>
+<ul>
+  <li wx:for="{{logs}}" wx:for-item="log">{{index + 1}}. {{log}}</li>
+</ul>
