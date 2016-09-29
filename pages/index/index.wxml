@@ -5,7 +5,6 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   
-
   <view  bindtap="bindCatViewTap" class="cat">
     <text>{{cat.name}}</text>
   </view>
@@ -13,7 +12,9 @@
   <view bindtap="bindViewTap" data-page-name="ico">
     <text>ico demo</text>
   </view>
-  
+  <view bindtap="bindViewTap" data-page-name="for">
+    <text>For demo</text>
+  </view>  
   <view bindtap="bindViewTap" data-page-name="logs">
     <text>查看日志</text>
   </view>

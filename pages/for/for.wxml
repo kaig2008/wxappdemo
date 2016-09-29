@@ -1,0 +1,7 @@
+<block wx:for="{{links}}">
+    <view bindtap="go" data-url="{{item.url}}">
+        {{index+1}}、{{item.text}}
+    </view>
+</block>
+
+<block>
